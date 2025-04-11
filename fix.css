@@ -1,0 +1,14 @@
+/* Remove custom cursor for GitHub Pages compatibility */
+.custom-cursor, .cursor-trail-dot, .cursor-trail-container {
+    display: none !important;
+}
+
+html, body, a, button, .tag, .skill-item, .timeline-content, .education-item, .contact-btn, .social-link {
+    cursor: auto !important;
+}
+
+/* Fix for header display issue */
+header {
+    display: block !important;
+    opacity: 1 !important;
+}
